@@ -5,16 +5,16 @@ Operating Systems Design and Systems Programming
 Assignment #1 - SYST 44288
 
 C Programming Review: Taking in command line arguments
+
 int main(int argc, char *argv[])
-argv is an array of pointers of type char (i.e. array of strings). This array holds all of the
-arguments passed when executing the program. If your program is named 1.1.c, after it has
-successfully compiled you will execute the program by calling its name and then passing all
-necessary command line arguments. Ex. ./1.1 3 0 600000
+
+argv is an array of pointers of type char (i.e. array of strings). This array holds all of the arguments passed when executing the program. If your program is named 1.1.c, after it has successfully compiled you will execute the program by calling its name and then passing all necessary command line arguments. Ex. ./1.1 3 0 600000
+
 argc is the length of this array.
-argv[0] = 1.1
-argv[1] = 3
-argv[2] = 0
-argv[3] = 600000
+- argv[0] = 1.1
+- argv[1] = 3
+- argv[2] = 0
+- argv[3] = 600000
 
 ## Question 1
 Armstrong Numbers
